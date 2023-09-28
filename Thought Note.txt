@@ -1,0 +1,104 @@
+RUCHI KUMARI 
+
+ruchi.kumari63@gmail.com
+
+
+                              ---- this is a descriptive note of my work----
+
+--- created four html file named index, menu, contactus and aboutus.
+--- And one style.css file which is linked to all the four html pages.
+    This css file contains all the styling code.
+--- I have created seperate folder for images which contains only few image and for rest of the images I have used online links.
+--- I have added diagonal gardient in whole page background in aboout us, our menu and contact us page
+--- I have also included footer section in each page which consist of some content, social media icons,google play store
+     and apple app store icon.
+     these icons are active and connected to respective page and opens in new tab.
+--- In footer section, I have tried using grid layout with list for list contents.
+    And for icons I have used flex layout. 
+--- I have used various font families in all the four page and have added effects to it.
+
+
+
+--- 1. index.html
+
+    -- Firstly, I added a background image.
+    -- created 3 buttons (our menu, aboutus, contact us) with hovering effects.
+      - while hovering on these buttons, background color, font family, font size and font color changes.
+    -- linked these buttons to respective html pages.
+    -- created footer for this page and then included that same footer in every other pages.
+    -- used different fonts in this page.
+    
+
+
+
+--- 2. menu.html
+
+    -- Firstly, I added a back to home button and applied the same css that I had applied to index.html buttons.
+    -- I set the position of this button to top sticky and added z-index=10 to asure it allows display on top.
+    -- then I created a heading named it breakfast and styled it.
+    -- after,i added footer section and applied bottom to left diagonal gradient with 5 colors to whole page.
+    -- created flex container and flex item.
+    -- in first flex item, created the whole card with image, food name, food price, rating icons with rating
+       non-veg or veg declaration using icons, cold or hot declaration as well using icons in beverage categories
+       and add to cart buttons.
+    -- I applied hovering effect to card which contains border and box shadow.
+    -- on top of food image I have added text which has hovering effect on it too.
+    -- on food name as well I have included hovering effect, on hovering font family, font color,font size and 
+       background-color changes.
+    -- on rating there is hovering effect included as well.
+    -- have added bestseller text on top of some food items and discounted price with some food items using 
+       text decoration property.
+    -- food name and price are aligned using flex and gap.
+    -- add to cart button has hovering effect similar to other buttons. all the buttons in this projrct have 
+       same hovering effect.
+    -- within add to cart buttons I have added plus (+) icons which I got from font awesome.
+    -- then after creating one card I copy pasted 9 times and made changes to it.
+    -- there's total of 10 food items in each categories.
+    -- And there is total of four categories breakfast, lunch, beverages, and dessert.
+    -- and after creating one category.
+    -- I copy pasted the layout and made changes to it.
+
+
+
+--- 3. Contactus.html
+
+    -- firstly, I added a back to home button and applied the same css that I had applied to index.html buttons.
+    -- I set the position of this button to top sticky and added z-index=10 to asure it allows display on top.
+    -- after, i added footer section and applied bottom to left diagonal gradient with 5 colors to whole page.
+    -- created form using form tag .
+    -- in form , added title , input fields and button. 
+    -- button has hover effects.
+    -- in input field used pseudo elements for placeholder and changed font family and font color.
+    -- for input fields, i changed border color as well.
+    -- i created five input fields first name, last name, email, contact no. and text area.
+    -- in first name and last name i have set the pattern to only take block letters as input and characters count
+       should be between 3 - 15. (.,;' these are not allowed)
+    -- and in email as well included pattern attribute to make sure the provided email follow @globex\.com pattern.
+    -- in contact no filed, have include pattern which takes input in format 123-456-7890 and first digit must be
+       among[1-9], meaning it won't take 0 as first digit.
+       also only digit is allowed.
+
+
+
+--- 4. Aboutus.html
+    -- firstly, I added a back to home button and applied the same css that I had applied to index.html buttons.
+    -- I set the position of this button to top sticky and added z-index=10 to asure it allows display on top.
+    -- after,i added footer section and applied bottom to left diagonal gradient with 5 colors to whole page.
+    -- created flex container and 3 flex item (sidebar left, content and sidebar right).
+    -- in content i have created four cards. these four cards have hovering effects set on it.
+       on hovering on each card shows box-shadow and border. 
+    -- in first card, i have used image float property and created content.
+       title of this card "who are we?" change font family,font size and font color on hovering.
+    -- in second card, i used grid to create layout.
+       there is hovering effect added on all of the job profiles.
+       background color changes on hovering.
+       title of this card "featured job" change font family,font size and font color on hovering.
+    -- in third card, i used grid layout to arrange pictures and created image collage.
+       title of this card "glimpse of life at burger-surger" change font family,font size and font color on hovering.
+    -- in fourth card, i used grid layout to arrange cities name where restaurant deliver services.
+       there is hovering effect added on all of the cities name.
+       background color changes on hovering.
+       title of this card "cities we deliver to" change font family,font size and font color on hovering.
+    -- i styled sidebar right position to top sticky. so, once it reaches top it sticked to top.
+       the icons added to this section is active and opens in new tab.
+    -- also have styled sidebar-left using pseudo class. this also on hovering shows box-shadow and border.
